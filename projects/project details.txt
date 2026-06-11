@@ -1,0 +1,32 @@
+1. Inou — Anonymous Social & Community Platform
+
+A modern social platform designed for sharing thoughts, engaging with communities, and discovering trending discussions in real time. Users can post updates, interact through likes and comments, and connect with organizations seamlessly. The platform includes powerful moderation tools, reporting systems, and an admin dashboard for efficient community management. Built to encourage open communication while maintaining a safe and organized environment.
+github- {when clicked give notification (Private repo project)}
+visit at- inou.onrender.com
+
+
+2. Student Tuition Management System
+
+A comprehensive tuition management solution that simplifies student, teacher, and fee administration in one place. The system tracks student records, attendance status, monthly payments, pending fees, and academic progress efficiently. Features include teacher management, payment reminders, performance charts, and data export capabilities for streamlined operations. Designed to help tutors and coaching centers reduce manual work and improve record accuracy.
+visit at- https://yashwantsinghjaat.github.io/tutionmgmt/
+github- https://github.com/yashsinghjaat/tutionmgmt
+
+
+3. Fitness Point — Gym & Fitness Website
+
+A professional gym website created to showcase fitness programs, membership plans, personal coaching services, and contact information. The platform provides an engaging user experience through modern design, clear pricing structures, and easy inquiry forms. Visitors can explore training programs, compare membership options, and connect directly with the gym. Built to strengthen online presence and attract potential fitness enthusiasts.
+Visit at- https://yashwantsinghjaat.github.io/fitnesspoint/
+github- https://github.com/yashwantsinghjaat/fitnesspoint
+
+4. Study Vault — Academic Resource Sharing Platform
+
+A centralized study hub where students can discover, upload, and share educational resources organized by semester and subject. The platform offers access to PYQs, notes, study materials, and community discussions to support collaborative learning. Advanced filtering, resource categorization, and file management features help users quickly find relevant content. Designed to make academic resources more accessible, organized, and community-driven.
+visit at- https://yashsinghjaat.github.io/studyvault/
+github- https://github.com/yashsinghjaat/studyvault
+
+
+5. Focus Timer — Productivity & Study Companion
+
+A customizable productivity application designed to enhance focus and time management during study or work sessions. It combines timer controls, stopwatch functionality, break scheduling, background music, and live weather updates in a single interface. Users can personalize the workspace with adjustable settings to create an optimal concentration environment. Built to promote productivity, maintain work-life balance, and improve study efficiency.
+visit at- https://yashsinghjaat.github.io/studytimer/
+github- https://github.com/yashsinghjaat/studytimer
