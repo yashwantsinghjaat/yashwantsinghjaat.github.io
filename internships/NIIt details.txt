@@ -1,0 +1,12 @@
+### Cybersecurity with AI Intern – NIIT Foundation
+
+**Duration:** July 2025 – August 2025
+**Location:** Virtual Internship, India
+
+Successfully completed a 4-week virtual internship in **Cybersecurity with AI** organized by **NIIT Foundation**. The internship provided hands-on exposure to cybersecurity fundamentals, networking concepts, and AI-driven security practices through guided learning sessions and practical activities.
+
+During the program, I worked with **Cisco Packet Tracer** to understand network design, device configuration, routing, switching, and secure infrastructure deployment. I gained practical knowledge of network topologies, IP addressing, and troubleshooting techniques while exploring how cybersecurity principles are applied in real-world environments.
+
+The internship also introduced key cybersecurity concepts such as threat identification, vulnerability awareness, risk mitigation, secure communication, and best practices for protecting digital systems. In addition, I explored the role of Artificial Intelligence in modern cybersecurity, including automated threat detection, security monitoring, and intelligent defense mechanisms.
+
+This experience strengthened my foundation in **Networking, Cybersecurity, Problem Solving, Network Security, Cisco Packet Tracer, and AI-assisted Security Practices**, while enhancing my ability to work with industry-relevant tools and technologies.
