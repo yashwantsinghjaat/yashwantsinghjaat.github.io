@@ -8,18 +8,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="canonical" href="https://yashwantsinghjaat.github.io">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-  <body>
+<body>
+  <div class="scroll-progress" id="progress-bar"></div>
+
   <div class="ambient ambient-a"></div>
   <div class="ambient ambient-b"></div>
+  
   <div class="page-shell">
     <header class="topbar">
       <a class="brand" href="#home" aria-label="Yashwant Singh home">
-        <span class="brand-mark">YS</span>
+        <span class="brand-mark">🤠</span>
         <span>
-          <strong>Yashwant Singh</strong>
+          <strong style="color: white;">Yashwant Singh</strong>
           <small>Software Engineer · Full Stack Developer</small>
         </span>
       </a>
@@ -35,6 +38,7 @@
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#posts">Posts</a>
         <a href="#experience">Experience</a>
         <a href="#certifications">Certificates</a>
         <a href="#contact">Contact</a>
@@ -53,7 +57,7 @@
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="Yashwant_Singh_Resume_Final.docx">Download Resume</a>
+            <a class="btn btn-primary" href="Yashwant_Singh_Resume_Final.docx" download>Download Resume</a>
             <a class="btn btn-secondary" href="https://github.com/yashwantsinghjaat" target="_blank" rel="noreferrer">GitHub</a>
             <a class="btn btn-secondary" href="https://www.linkedin.com/in/yashwantsinghjaat" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
@@ -75,26 +79,32 @@
         <div class="hero-visual">
           <div class="feature-card glass large-card">
             <span class="card-label">Featured project</span>
-            <img src="projects/ChatGPT Image Jun 10, 2026, 03_13_31 PM.png" alt="Focus Timer project preview" loading="lazy" decoding="async" />
+            <div class="img-zoom-wrapper lightbox-trigger" data-src="projects/ChatGPT%20Image%20Jun%2010,%202026,%2002_37_58%20PM.png" data-title="Inou Platform">
+              <img src="projects/ChatGPT%20Image%20Jun%2010,%202026,%2002_37_58%20PM.png" alt="Inou project preview" loading="lazy" decoding="async" />
+            </div>
             <div>
-              <h2>Focus Timer</h2>
-              <p>Responsive productivity app with timer controls, stopwatch, break sessions, background music, and weather integration.</p>
+              <h2>Inou</h2>
+              <p>Anonymous social and community platform with posting, likes, comments, trending content filtering, moderation tools, reporting flags, and a responsive admin analytics dashboard.</p>
             </div>
           </div>
 
           <div class="mini-stack">
             <article class="feature-card glass mini-card">
               <span class="card-label">Achievement</span>
-              <img src="certificates/1.jpeg" alt="HackerRank Certificate of Excellence" loading="lazy" decoding="async" />
+              <div class="img-zoom-wrapper lightbox-trigger" data-src="certificates/1.jpeg" data-title="HackerRank AI Agent Challenge">
+                <img src="certificates/1.jpeg" alt="HackerRank Certificate of Excellence" loading="lazy" decoding="async" />
+              </div>
               <div>
-                <h3>HackerRank AI Agent Challenge</h3>
+                <h3>HackerRank AI Challenge</h3>
                 <p>Global rank 1106, May 2026.</p>
               </div>
             </article>
 
             <article class="feature-card glass mini-card accent-card">
               <span class="card-label">Internship</span>
-              <img src="Internships/NIIT.png" alt="NIIT Foundation Cybersecurity with AI internship certificate" loading="lazy" decoding="async" />
+              <div class="img-zoom-wrapper lightbox-trigger" data-src="Internships/NIIT.png" data-title="Cybersecurity with AI Certificate">
+                <img src="Internships/NIIT.png" alt="NIIT Foundation Cybersecurity with AI internship certificate" loading="lazy" decoding="async" />
+              </div>
               <div>
                 <h3>Cybersecurity with AI</h3>
                 <p>4-week virtual internship at NIIT Foundation.</p>
@@ -158,33 +168,58 @@
           <h2>Technical stack built for frontend, backend, and deployment.</h2>
         </div>
         <div class="skills-grid">
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="cyan">
             <h3>Languages</h3>
             <p>JavaScript, Python, Java, C, C++, SQL</p>
           </article>
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="teal">
             <h3>Frontend</h3>
             <p>HTML5, CSS3, Responsive Design, React basics, Tailwind basics</p>
           </article>
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="purple">
             <h3>Backend</h3>
             <p>Node.js, Express.js, REST APIs, JWT auth, session management</p>
           </article>
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="blue">
             <h3>Databases</h3>
             <p>Supabase, Firebase Realtime DB, PostgreSQL, MongoDB basics</p>
           </article>
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="green">
             <h3>Cloud & Tools</h3>
             <p>OCI, AWS fundamentals, Vercel, Netlify, Render, GitHub Pages, Git, Docker basics, Postman</p>
           </article>
-          <article class="skill-card glass">
+          <article class="skill-card glass" data-category="magenta">
             <h3>AI & Security</h3>
             <p>Google Gemini API, prompt engineering, AI agents, Cisco Packet Tracer, network security</p>
           </article>
         </div>
       </section>
 
+      <section id="internship" class="section reveal">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Internship</p>
+            <h2>NIIT Cybersecurity with AI internship — applied security and network engineering.</h2>
+          </div>
+          <a class="btn btn-secondary" href="#experience">View internship details</a>
+        </div>
+        <article class="internship-card glass">
+          <div class="internship-media img-zoom-wrapper lightbox-trigger" data-src="Internships/NIIT.png" data-title="NIIT Cybersecurity with AI Internship">
+            <img src="Internships/NIIT.png" alt="NIIT Cybersecurity internship certificate" loading="lazy" decoding="async" />
+          </div>
+          <div class="internship-copy">
+            <p class="eyebrow">NIIT Foundation</p>
+            <h3>Cybersecurity with AI</h3>
+            <p>Completed an intensive four-week internship where I designed secure network topologies, implemented access controls, and built AI-assisted threat analysis workflows. The experience combined practical Cisco Packet Tracer labs, secure configuration exercises, and applied incident response techniques.</p>
+            <ul>
+              <li>Designed VLAN segmentation, subnet planning, and secure routing for a campus network.</li>
+              <li>Built and validated firewall policies, ACL rules, and vulnerability mitigation plans.</li>
+              <li>Created AI-informed monitoring workflows to detect suspicious traffic and flag threats.</li>
+              <li>Documented findings, risk controls, and recommended improvements for real-world systems.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
       <section id="projects" class="section reveal">
         <div class="section-heading section-heading-row">
           <div>
@@ -198,15 +233,37 @@
             <button class="filter-btn" data-filter="utility" type="button">Utility</button>
           </div>
         </div>
-        <div id="project-grid" class="project-grid"></div>
+        <div id="project-grid" class="project-grid">
+          <section class="project-section">
+            <div class="project-section-header">
+              <h3>Featured projects</h3>
+            </div>
+            <div id="featured-projects" class="featured-projects"></div>
+          </section>
+          <section class="project-section">
+            <div class="project-section-header">
+              <h3>Other projects</h3>
+            </div>
+            <div id="other-projects" class="other-projects"></div>
+          </section>
+        </div>
       </section>
 
-      <section class="section reveal">
-        <div class="section-heading">
-          <p class="eyebrow">Visual work</p>
-          <h2>Selected preview gallery from your real project assets.</h2>
+      <section id="posts" class="section reveal">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Feed & Updates</p>
+            <h2>Events, insights, and terminal logs.</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="Post filters">
+            <button class="filter-btn active" data-post-filter="all" type="button">All Logs</button>
+            <button class="filter-btn" data-post-filter="linkedin" type="button">LinkedIn</button>
+            <button class="filter-btn" data-post-filter="event" type="button">Events</button>
+            <button class="filter-btn" data-post-filter="achievement" type="button">Achievements</button>
+            <button class="filter-btn" data-post-filter="update" type="button">Updates</button>
+          </div>
         </div>
-        <div id="preview-grid" class="preview-grid"></div>
+        <div id="posts-feed" class="posts-feed"></div>
       </section>
 
       <section id="experience" class="section reveal">
@@ -214,41 +271,43 @@
           <p class="eyebrow">Experience</p>
           <h2>Internship and freelance work that adds proof of execution.</h2>
         </div>
-        <div class="timeline">
-          <article class="timeline-item glass">
-            <span class="timeline-date">Jul 2025 - Aug 2025</span>
-            <h3>Cybersecurity with AI Intern · NIIT Foundation</h3>
-            <p>
-              Used Cisco Packet Tracer to practice device configuration, routing, switching, IP addressing,
-              VLANs, and secure network design. Strengthened understanding of cybersecurity fundamentals,
-              threat awareness, and AI-assisted defense concepts.
-            </p>
-          </article>
+        <div class="timeline-container">
+          <div class="timeline">
+            <article class="timeline-item glass">
+              <span class="timeline-date">Jul 2025 - Aug 2025</span>
+              <h3>Cybersecurity with AI Intern · NIIT Foundation</h3>
+              <p>
+                Used Cisco Packet Tracer to practice device configuration, routing, switching, IP addressing,
+                VLANs, and secure network design. Strengthened understanding of cybersecurity fundamentals,
+                threat awareness, and AI-assisted defense concepts.
+              </p>
+            </article>
 
-          <article class="timeline-item glass">
-            <span class="timeline-date">2024</span>
-            <h3>Web Developer · Fitness Point Gym Website</h3>
-            <p>
-              Designed and deployed a mobile-first business website with service pages, membership plans,
-              SEO-minded content, and inquiry flow using HTML, CSS, and JavaScript.
-            </p>
-          </article>
+            <article class="timeline-item glass">
+              <span class="timeline-date">2024</span>
+              <h3>Web Developer · Fitness Point Gym Website</h3>
+              <p>
+                Designed and deployed a mobile-first business website with service pages, membership plans,
+                SEO-minded content, and inquiry flow using HTML, CSS, and JavaScript.
+              </p>
+            </article>
 
-          <article class="timeline-item glass">
-            <span class="timeline-date">2023 - 2024</span>
-            <h3>Social Media Manager · YouTube Channel</h3>
-            <p>
-              Helped grow a channel from 0 to 4,000+ subscribers through content planning, editing,
-              thumbnails, SEO, and audience retention improvements.
-            </p>
-          </article>
+            <article class="timeline-item glass">
+              <span class="timeline-date">2023 - 2024</span>
+              <h3>Social Media Manager · YouTube Channel</h3>
+              <p>
+                Helped grow a channel from 0 to 4,000+ subscribers through content planning, editing,
+                thumbnails, SEO, and audience retention improvements.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section id="certifications" class="section reveal">
         <div class="section-heading">
           <p class="eyebrow">Certificates</p>
-          <h2>Recognition across AI, hackathons, cloud, security, and productivity.</h2>
+          <h2>Recognition across AI, hackathons, cloud, security, and productivity. Click any to enlarge.</h2>
         </div>
         <div id="certificate-grid" class="certificate-grid"></div>
       </section>
@@ -271,8 +330,16 @@
     </main>
 
     <footer class="footer">
-      <p>Designed from the portfolio assets in this folder. Last updated <span id="year"></span>.</p>
+      <p> <span id="year"></span></p>
     </footer>
+  </div>
+
+  <div class="lightbox-modal" id="lightbox" role="dialog" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Enlarged visual container view" />
+      <h3 id="lightbox-caption">Caption Text</h3>
+    </div>
   </div>
 
   <script src="script.js"></script>
